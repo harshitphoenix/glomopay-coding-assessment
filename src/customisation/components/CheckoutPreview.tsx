@@ -17,6 +17,7 @@ export function CheckoutPreview({ draft }: CheckoutPreviewProps) {
     <div className="flex flex-col gap-4">
       <h2 className="text-lg font-semibold">Preview</h2>
       <div
+        data-testid="checkout-preview"
         className="flex min-h-48 flex-col gap-6 rounded-xl border p-6 shadow-sm"
         style={{ backgroundColor: draft.backgroundColor || undefined }}
       >
